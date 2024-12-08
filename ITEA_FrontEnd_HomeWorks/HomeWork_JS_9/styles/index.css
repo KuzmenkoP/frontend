@@ -1,0 +1,41 @@
+body{
+    font-size: 10px;
+}
+
+div{
+    width: 10rem;
+    height: 5rem;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+
+    margin: 10px auto;
+
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+p{
+    background-color: yellow;
+    display: block;
+
+    width: 200px;
+    height: 100px;
+
+    margin: 0 auto;
+    position: relative;
+
+    top: 3rem;
+}
+
+
+input{
+    display: block;
+    width: 42.5rem;
+    height: 5rem;
+
+    margin: 1rem auto;
+
+    font-size: 2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,281 @@
+@media screen and ( max-width: 768px ){
+	.header{
+		height: 5rem;
+	}
+	
+	.navMenu > a{
+		font-size: 2rem !important;
+		margin: 0 1rem;
+	}
+	
+	.logo{
+		width: 10rem;
+	}
+
+	
+/*///////   PAGE 01   ///////	*/
+	.page{
+		max-height: none;
+	}
+	
+	.p01{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 100vw;
+		margin-top: 6rem;
+		padding-top: 0;
+		
+	}
+	
+	@keyframes p01_a_anim{ from{ left: 60vw; } to{ left: 0; } }
+	@keyframes p01_b_anim{ from{ left: -60vw; } to{ left: 0; } }
+	
+	.p01 a{
+		border-radius: 7.5rem;
+	}
+/*370 x 583
+90/370 = 0.2432
+*/
+	.p01_side{
+		width: 90vw;
+		max-width: none;
+		
+		height: 141.8vw;
+		max-height: none;
+
+		border-radius: 7.5rem;
+		margin-bottom: 1rem;
+	}
+	
+	.p01_side{
+	}
+	
+	.p01_cTop, .p01_cBot{
+		margin-bottom: 1rem;
+	}
+
+/*
+465 x 460
+90/465 = 0.1935
+465 x 364
+*/
+	.p01_a, .p01_b{
+		width: 90vw;
+		max-width: none;
+	}
+	.p01_cTop{
+		height: 79vw;
+/*		height: 89vw;*/
+		max-height: none;
+	}
+	.p01_cBot{
+		height: 70.45vw;
+		max-height: none;
+	}
+	
+	.p02{
+		height: none;
+	}
+	.p02_bg{
+		display: none;
+	}
+	
+	.p02_card{
+		font-size: 2rem;
+	}
+	
+	.p03_title{
+		font-size: 6vw !important;
+		margin-bottom: 0 !important;
+	}
+	
+/*///////   PAGE 03   ///////	*/
+	.p03_cards_container{
+		flex-direction: column;
+		width: 100vw !important;
+		height: 650vw !important;
+	}
+	
+	.p03_cards_container > a:first-child{
+		background-size: 102% 102% !important;
+		background-position: -1vw 0;
+	}
+	
+/*
+404 x 677
+90/404 = 0.2227
+
+width/height = 404/677	
+height = width * 677 / 404 = width * 1.6757
+	
+*/
+	
+
+	.p03_card{
+		width: 90vw !important;
+		height: 155.82vw  !important;
+		max-width: none !important;
+		max-height: none;
+		
+		margin-bottom: -1vw;
+	}
+	
+	.p03_card_03, .p03_card_04{
+		height: 152.82vw;
+	}
+	
+	.p03_card_title{
+		border-bottom-left-radius: 10vw;
+		border-bottom-right-radius: 10vw;
+		transition: all 1s linear;
+	}
+	
+/*///////   PAGE 04   ///////	*/
+	.p04{
+		padding-top: 0 !important;
+	}
+	
+	.p04_container{
+		flex-direction: column-reverse;
+		height: auto !important;
+	}
+	
+	.p04_msgContainer > div:first-child{
+		font-size: 8.5vw !important;
+/*		font-size: 3.5rem !important;*/
+		margin: 3vw auto;
+	}
+	
+/*///////   CONTACTS   ///////	*/
+	.p04_msgContainer{
+		margin: 0;
+		width: 90vw !important;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+/*	
+	90/626=0.1437
+	626 x 570
+*/
+	.p04_msgContainer + iframe{
+		width: 90vw;
+		height: 82vw;
+	}
+	
+	.p04_form{
+/*		display: flex;*/
+		flex-direction: column;
+		justify-content: space-between;
+/*		align-items: center;*/
+		
+		margin: 0;
+		padding: 5vw;
+/*		padding-bottom: 5vw;*/
+		
+		width: 90vw !important;
+		height: auto;
+		box-sizing: border-box;
+	}
+	
+	.p04_form *{
+		font-size: 3vw;
+	}
+	
+	.p04_form > input:first-child{
+		width: 100%;
+		height: 6vw;
+		
+		padding: 3vw;
+/*		margin: 5vw 0 1vw 0;*/
+	}
+	
+	.p04_form > input:nth-child(2){
+		width: 100%;
+		height: 6vw;
+		
+		padding: 3vw;
+		margin-top: 5vw;
+	}
+	
+	.p04_form > textarea{
+		width: 100%;
+		height: 20vw;
+		
+		font-size: 3vw;
+		
+		padding: 3vw;
+		margin-top: 5vw;
+	}
+	
+	.p03_footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 100vw;
+		height: 35vw;
+		
+		font-size: 3vw;
+		
+		padding-top: 0;
+		margin-top: 5vw;
+/*		padding-top: 41vw;*/
+	}
+	
+	.p03_footer > div:first-child{
+		width: 50vw;
+	}
+	
+	.p03_footer > div:nth-child(2){
+		margin-top: 5vw;
+	}
+	
+	.p03_footer > div:last-child{
+		margin-top: 5vw;
+	}
+	
+	.p04_a{
+/*		margin-left: 11rem;*/
+		margin: 0 auto;
+		margin-left: 22.5vw;
+		font-size: 2.9vw;
+/*		background-size: cover;*/
+	}
+	
+	.p04_title{
+		font-size: 3vw;
+/*		font-size: 2.3vw;*/
+	}
+	
+	.p04_title_2{
+/*		font-size: 1.9vw;*/
+	}
+	
+/*
+	.p04_a1{
+		background-size: cover;
+	}
+*/
+	
+	.p04_a1{
+/*		background-size: 3rem;*/
+		background-size: 4vw;
+	}
+	
+	.p04_a2{
+		background-size: 3rem;
+/*		background-size: 7.5vw;*/
+		background-position: -0.5vw 0;
+	}
+	
+	.p04_a3{
+/*		background-size: 3rem;*/
+		background-size: 5vw;
+		background-position: 0.25vw 0;
+	}
+	
+}

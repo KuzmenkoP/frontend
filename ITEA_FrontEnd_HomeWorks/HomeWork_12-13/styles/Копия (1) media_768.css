@@ -1,0 +1,198 @@
+@media screen and ( max-width: 768px ){
+	.header{
+		height: 5rem;
+	}
+	
+	.navMenu > a{
+		font-size: 2rem !important;
+		margin: 0 1rem;
+	}
+	
+	.logo{
+		width: 10rem;
+	}
+
+	
+/*///////   PAGE 01   ///////	*/
+	.page{
+		max-height: none;
+	}
+	
+	.p01{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 100vw;
+		margin-top: 6rem;
+		padding-top: 0;
+		
+	}
+	
+	@keyframes p01_a_anim{ from{ left: 60vw; } to{ left: 0; } }
+	@keyframes p01_b_anim{ from{ left: -60vw; } to{ left: 0; } }
+	
+	.p01 a{
+		border-radius: 1.5rem;
+	}
+/*370 x 583
+90/370 = 0.2432
+*/
+	.p01_side{
+		max-height: none;
+		margin-bottom: 1rem;
+		
+		max-width: none;
+		width: 90vw;
+	}
+	
+	.p01_side{
+		height: 141.8vw;
+	}
+	
+	.p01_cTop, .p01_cBot{
+		margin-bottom: 1rem;
+	}
+
+/*
+465 x 460
+90/465 = 0.1935
+465 x 364
+*/
+	.p01_a, .p01_b{
+		width: 90vw;
+		max-width: none;
+		
+	}
+	
+	.p01_cTop{
+		height: 79vw;
+/*		height: 89vw;*/
+		max-height: none;
+	}
+	.p01_cBot{
+		height: 70.45vw;
+		max-height: none;
+	}
+	
+	.p02{
+		height: none;
+	}
+	.p02_bg{
+		display: none;
+	}
+	
+	.p02_card{
+		font-size: 2rem;
+	}
+	
+	.p03_title{
+		font-size: 4rem !important;
+	}
+	
+/*///////   PAGE 03   ///////	*/
+	.p03_cards_container{
+		flex-direction: column;
+/*		justify-content: space-around;*/
+		width: 100vw;
+		height: 650vw;
+/*		height: 610vw;*/
+	}
+	
+/*
+404 x 677
+90/404 = 0.2227
+*/
+	.p03_card{
+		width: 90vw;
+		height: 155.82vw;
+		max-width: none;
+		max-height: none;
+		
+		margin-bottom: -1vw;
+/*		margin-bottom: 1vw;*/
+	}
+	
+	.p03_card_03, .p03_card_04{
+		height: 152.82vw;
+	}
+	
+	.p03_card_title{
+		border-bottom-left-radius: 60px;
+		border-bottom-right-radius: 60px;
+		transition: all 1s linear;
+	}
+	
+/*///////   PAGE 04   ///////	*/
+	.p04{
+		padding-top: 0;
+	}
+	
+	.p04_container{
+		flex-direction: column-reverse;
+	}
+	
+	.p04_container > iframe{
+		width: 90vw;
+	}
+	
+	.p04_msgContainer > div:first-child{
+		font-size: 3rem;
+	}
+	
+/*///////   CONTACTS   ///////	*/
+	.p04_msgContainer{
+		margin: 0;
+		width: 100vw;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.p04_form{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		
+		margin: 0;
+		padding: 0;
+		padding-bottom: 5vw;
+		
+		width: 90vw;
+		height: auto;
+	}
+	
+	.p04_form > input:first-child{
+		width: 90%;
+		
+		padding: 2vw 2vw 2vw 2vw;
+		margin: 5vw 0 1vw 0;
+	}
+	
+	.p04_form > input:nth-child(2){
+		width: 90%;
+		
+		padding: 2vw 2vw 2vw 2vw;
+		margin: 5vw 0 1vw 0;
+	}
+	
+	.p04_form > textarea{
+		width: 90%;
+		
+		padding: 2vw 2vw 2vw 2vw;
+		margin: 5vw 0 1vw 0;
+	}
+	
+	.p03_footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 100vw;
+		height: 70rem;
+		
+		padding-top: 5vw;
+	}
+	
+}

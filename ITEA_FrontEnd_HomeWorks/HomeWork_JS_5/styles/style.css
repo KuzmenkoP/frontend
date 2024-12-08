@@ -1,0 +1,11 @@
+#cardsContainer{
+    margin: 0 auto;
+    width: 300px;
+}
+
+#cardsContainer > div{
+    background-color: #b6b6b6;
+
+    /* margin-bottom: 25px; */
+    border: 1px solid black;
+}

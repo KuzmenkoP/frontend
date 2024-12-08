@@ -1,0 +1,285 @@
+@media screen and ( min-width: 769px )
+				and ( max-width: 992px ){
+	.header{
+		height: 9rem;
+/*		height: 5rem;*/
+	}
+	
+	.navMenu > a{
+		font-size: 2.5rem !important;
+		margin: 0 1rem;
+	}
+	
+	.logo{
+		width: 18rem;
+	}
+
+	
+/*///////   PAGE 01   ///////	*/
+	.page{
+		max-height: none;
+	}
+	
+	.p01{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		
+		width: 100vw;
+		
+		margin-top: 6rem;
+		padding-top: 0;
+		
+	}
+	
+	@keyframes p01_a_anim{ from{ left: 60vw; } to{ left: 0; } }
+	@keyframes p01_b_anim{ from{ left: -60vw; } to{ left: 0; } }
+	
+	.p01 a{
+		border-radius: 1.5rem;
+		width: 45vw;
+	}
+/*370 x 583
+90/370 = 0.2432
+*/
+	.p01_side{
+		max-height: none;
+		margin-bottom: 1rem;
+		
+		max-width: none;
+		width: 45vw;
+		height: 73vw;
+	}
+	
+	.p01_cTop, .p01_cBot{
+		margin-bottom: 1rem;
+	}
+	
+	.p01_cTop{
+		height: 43.5vw !important;
+	}
+	
+	.p01_cBot{
+		height: 35.5vw !important;
+	}
+
+/*
+465 x 460
+90/465 = 0.1935
+465 x 364
+*/
+	.p01_a, .p01_b{
+		width: 45vw;
+		max-width: none;
+		height: 42vw;
+	}
+	
+	.p01_a{
+		transform: translateX(24vw);
+	}
+	
+	.p01_b{
+/*		position: absolute;*/
+		top: -42vw;
+		transform: translateX(-24vw);
+	}
+	
+	.p01_cTop{
+		height: 79vw;
+/*		height: 89vw;*/
+		max-height: none;
+	}
+	.p01_cBot{
+		height: 70.45vw;
+		max-height: none;
+	}
+	
+	.p01_R{
+		transform: translateX(24vw);
+		top: -158vw;
+	}
+	
+	.p01_L{
+		transform: translateX(-24vw);
+	}
+	
+/*///////   PAGE 02   ///////	*/
+	.p02_prev{
+/*		flex-direction: column-reverse;*/
+/*		width: none;*/
+		height: auto;
+	}
+	.p02{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: center;
+		
+		width: 100vw;
+		height: 205vw;
+		
+		margin-top: -74vw;
+	}
+	.p02_bg{
+		width: 93vw;
+		height: 100% !important;
+/*		height: auto;*/
+/*		display: none;*/
+	}
+	
+	.p02_card{
+		font-size: 2rem;
+	}
+	
+	.p03_title{
+		font-size: 6vw !important;
+	}
+	
+/*///////   PAGE 03   ///////	*/
+	.p03_cards_container{
+		flex-direction: column;
+/*		justify-content: space-around;*/
+		width: 100vw;
+		height: auto !important;
+/*		height: 34vw !important;*/
+/*		height: 650vw;*/
+/*		height: 610vw;*/
+	}
+	
+/*
+404 x 677
+90/404 = 0.2227
+*/
+	.p03_card{
+		width: 45vw !important;
+		height: calc( 155.82vw / 2 ) !important;
+		max-width: none;
+		max-height: none;
+		
+		margin-bottom: -1vw;
+/*		margin-bottom: 1vw;*/
+	}
+	
+	.p03_cards_container{
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+		height: auto;
+	}
+	
+	.p03_card_03, .p03_card_04{
+		height: calc( 152.82vw / 2 );
+		
+		margin-top: 5vw;
+	}
+	
+	.p03_card_title{
+		border-bottom-left-radius: 60px;
+		border-bottom-right-radius: 60px;
+		transition: all 1s linear;
+	}
+	
+/*///////   PAGE 04   ///////	*/
+	.p04{
+		padding-top: 3vw !important;
+	}
+	
+	.p04_container{
+		flex-direction: column;
+		height: auto !important;
+	}
+	
+/*
+626 x 570
+90 / 626 = 0.14
+*/
+	.p04_container > iframe{
+		width: 90vw;
+		height: 82vw;
+		margin-top: 3vw;
+	}
+	
+	.p04_msgContainer > div:first-child{
+		font-size: 5vw !important;
+	}
+	
+/*///////   CONTACTS   ///////	*/
+	.p04_msgContainer{
+		margin: 0;
+		width: 100%;
+		height: auto !important;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.p04_form{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		
+		margin: 0;
+		padding: 0;
+		padding-bottom: 5vw;
+		margin-top: 2vw;
+		
+		width: 90vw !important;
+		height: auto;
+	}
+					
+	.p04_form *{
+		font-size: 1.7vw !important;
+	}
+	
+	.p04_form > input:first-child{
+		width: 90% !important;
+		height: 20% !important;
+		
+		padding: 2vw 2vw 2vw 2vw;
+		margin: 5vw 0 1vw 0;
+	}
+	
+	.p04_form > input:nth-child(2){
+		width: 90% !important;
+		height: 20% !important;
+		
+		padding: 2vw 2vw 2vw 2vw;
+		margin: 5vw 0 1vw 0;
+	}
+	
+	.p04_form > textarea{
+		width: 90%;
+		height: 25vw;
+		
+		padding: 2vw 2vw 2vw 2vw;
+		margin: 5vw 0 1vw 0;
+	}
+	
+	.p03_footer{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 100vw;
+		height: auto;
+/*		height: 70rem;*/
+		
+		padding-top: 0;
+		margin-top: 2.5vw;
+	}
+					
+	.p03_footer > div:nth-child(2){
+		margin-top: 2.5vw;
+	}
+					
+	.p03_footer > div:nth-child(3){
+		margin-top: 2.5vw;
+	}
+	
+	.p04_a{
+		margin-left: 12rem;
+	}
+	
+}

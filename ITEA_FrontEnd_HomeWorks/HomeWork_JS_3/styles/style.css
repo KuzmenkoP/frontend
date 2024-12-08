@@ -1,0 +1,13 @@
+:root{
+	letter-spacing: 0.6rem;
+}
+
+span{
+	letter-spacing: 0.78rem;
+}
+
+div{
+	width: 90vw;
+	margin: 3vw auto;
+	text-align: center;
+}

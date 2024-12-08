@@ -1,0 +1,120 @@
+///////   FONTS   ///////
+
+//	Open Sans
+//		Regulad		400
+//		SemiBold	600
+//		Bold		700
+
+//	font-family: 'Open Sans', sans-serif;
+
+:root{
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.side-menu{
+//	width: 163px;
+//	width: 100px;
+	width: 263px;
+//	width: auto;
+	height: 1024px;
+	
+	padding: 20px 24px;
+	box-sizing: border-box;
+	
+	background-color: #ffffff;
+	outline: 1px solid black;
+}
+
+.logo-container{
+	display: grid;
+	grid-template-columns: 40px auto;
+	grid-template-rows: 20px 20px;
+	
+	grid-column-gap: 8px;
+}
+
+.logo{
+	grid-row: 1/3;
+	border-radius: 8px;
+	
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	
+	color: #FFFFFF;
+	font-size: 16px;
+	fong-weight: 700;
+	
+	background-color: #A492FF;
+}
+
+.logo-title{
+	font-size: 16px;
+	font-width: 700;
+	
+//	white-space: nowrap;
+  	overflow: hidden;
+	text-overflow: clip;
+}
+
+.logo-mail{
+	font-size: 14px;
+	font-width: 400;
+	
+	white-space: nowrap;
+  	overflow: hidden;
+	text-overflow: clip;
+}
+
+///////   NAVIGATION   ///////
+.nav{
+	margin-top: 100px;
+
+//	width: 100px;
+//	height: 500px;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat( 6, 50px );
+	
+	grid-row-gap: 16px;
+}
+
+a{
+	text-decoration: none;
+	color: #7C7C7A;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.nav > a{
+//	width: auto;
+	width: 50px;
+//	width: 56px;
+	height: 50px;
+	
+	background-color: green;
+	background-position: 12px 12px;
+	background-repeat: no-repeat;
+	padding: 14px 16px 14px 0;
+	box-sizing: border-box;
+}
+
+
+}
+
+//.search{ background-image: url("../img/search-logo.svg"); }
+//.dashboard{ background-image: url("../img/dashboard-logo.svg"); }
+//.revenue{ background-image: url("../img/revenue-logo.svg"); }
+//.notif{ background-image: url("../img/notif-logo.svg"); }
+//.analytics{ background-image: url("../img/analytics-logo.svg"); }
+//.inventory{ background-image: url("../img/inventory-logo.svg"); }
+
+
+.dashboard-logo:hover, .dashboard:hover{
+	background-color: green;
+}
+
+
+
+

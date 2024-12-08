@@ -1,0 +1,19 @@
+:root{
+	font-size: 10px;
+}
+table{
+	margin: 0 auto;
+	margin-top: 5rem;
+	
+	font-size: 1.4rem;
+	font-weight: 500;
+
+	min-width: 100rem;
+	border-collapse: collapse;
+}
+td{
+	border: 0.15rem solid black;
+	text-align: center;
+	
+	padding: 2rem;
+}

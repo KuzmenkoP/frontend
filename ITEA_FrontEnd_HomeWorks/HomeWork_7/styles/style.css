@@ -1,0 +1,592 @@
+/* 
+/////////   FONTS   /////////
+
+font-family: 'Poppins', sans-serif;
+	Regular		400
+	SemiBold	600
+	Bold		700
+
+font-family: 'Roboto', sans-serif;
+	Bold		700
+
+font-family: 'Inter', sans-serif;
+	Regular		400
+	Bold		700
+
+font-family: 'Work Sans', sans-serif;
+	Medium		500
+	SemiBold	600
+	Bold		700
+*/
+
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600;700&family=Roboto:wght@700&family=Work+Sans:wght@500;600;700&display=swap');
+
+:root{
+	background-color: #212529;
+	font-size: 10px;
+}
+
+
+/*////////////////   HEADER   ////////////////*/
+
+/*Header Full Line*/
+header > ul:nth-child(1){
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 6.6rem;
+	list-style: none;
+	
+	margin: 2rem 2rem;
+	padding: 0;
+}
+
+/*Logo Image*/
+
+.logoCorrection{
+	width: 14.8rem;
+}
+.logoIMG > img{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+}
+
+/*Navigation Menu*/
+.nav{
+	display: flex;
+}
+
+.nav > a{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: white;
+	
+	margin: 1.5rem;
+}
+
+.nav > a:hover{
+	color: #FFB742;
+	cursor: pointer;
+}
+
+/*BTN Hire Me*/
+.btn_hireMe{
+	color: white;
+	background-color: rgb(0, 0, 0, 0);
+	border: 0.25rem solid #FFB742;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 1.6rem;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	border-radius: 10rem;
+	
+	width: 14.8rem;
+	height: 5.4rem;
+}
+
+.btn_hireMe:hover{
+	background-color: #FFB742;
+	color: #212529;
+	
+	cursor: pointer;
+}
+
+
+/*////////////////   BODY   ////////////////*/
+
+.helloMSG{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	width: 96.4rem;
+	height: 45.8rem;
+	margin: 0 auto;
+	margin-top: 10.8rem;
+	
+	font-family: 'Inter', sans-serif;
+}
+
+.helloMSG > div{
+	font-size: 3.2rem;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.helloMSG > div:first-child > span{
+	color: #FFB742;
+	text-decoration: underline;
+	
+}
+
+.helloMSG > div:nth-child(2){
+	font-weight: 700;
+	font-size: 4.8rem;
+	margin-top: 3rem;
+	text-transform: capitalize;
+}
+
+.helloMSG > div:nth-child(3){
+	font-weight: 400;
+	font-size: 2.4rem;
+	margin-top: 5rem;
+	text-transform: capitalize;
+}
+
+.helloMSG > img{
+	margin-top: 3rem;
+}
+
+
+.skilsLST{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	
+	width: 129.6rem;
+	height: 12rem;
+	
+	margin: 0 auto;
+	margin-top: 13.5rem;
+}
+
+.skilsLST > a{
+	width: 41.6rem;
+	background-color: #292B2E;
+	border-radius: 2rem;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+	text-decoration: none;
+}
+
+.skilsLST > a:hover{
+	background: linear-gradient(to right, #FFB742, rgb(255, 123, 66, 0.50));
+}
+
+.skilsLST img{
+	display: block;
+	margin: 0 3rem;
+}
+
+.skilsLST__textForm{
+	width: 15.9rem;
+	height: 7rem;
+}
+
+.skilsLST > a:hover span{
+	color: #212529;
+}
+
+.skilsLST span{
+	display: block;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 1.6rem;
+	color: white;
+}
+
+.skilsLST > div:hover span{
+	color: black;
+}
+
+.skilsLST span[name]{
+	font-size: 3.2rem;
+	color: #FFB742;
+}
+
+
+/*///////   Who I Am   ///////*/
+
+.whoIAm{
+	width: 129.6rem;
+	height: 62.9rem;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	margin: auto;
+	margin-top: 22rem;
+}
+
+.whoIAm > img{
+	display: inline-block;
+	margin-top: 1rem;
+	height: 62.9rem;
+	margin-right: 5rem;
+	margin-left: -8rem;
+}
+
+.whoIAm > div{
+	display: inline-block;
+	height: 62.9rem;
+}
+
+.btn_whoIAm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	
+	width: 14rem;
+	height: 4.2rem;
+	background-color: #FFB742;
+	background-color: rgb(212, 212, 212, 0.08);
+	border-radius: 10rem;
+	text-transform: uppercase;
+	color: #FFB742;
+	
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.whoIAm_title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 4.8rem;
+	color: #FFFFFF;
+	font-weight: 700;
+	
+	margin-top: 1rem;
+}
+
+.whoIAm_content{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: justify;
+	color: #FFFFFF;
+	
+	line-height: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+
+/*///////   My Skils   ///////*/
+
+.mySkils_progLogos{
+/*	width: 129.6rem;*/
+	width: 133rem;
+	margin: auto;
+	margin-top: 2rem;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.mySkils{
+	width: 64.8rem;
+}
+
+.progLogos{
+	width: 55rem;
+	height: 18rem;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.progLogos > a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	
+	width: 8rem;
+	height: 8rem;
+	border-radius: 1rem;
+	background-color: #383E45;
+	
+	margin: 0.1rem 0.5rem;
+	text-align: center;
+}
+
+.progLogos > a:hover{
+	background-color: rgb(255, 183, 66, 0.5);
+	cursor: pointer;
+}
+
+
+/*///////   My Works   ///////*/
+
+.myWorks{
+	width: 129.6rem;
+	margin: auto;
+	margin-top: 12rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn_whoIAm_correction{
+	width: 16rem;
+}
+
+.btn_myWorks{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	width: 65rem;
+	margin-top: 3rem;
+}
+
+.btn_myWorks > a{
+	display: block;
+	height: 4rem;
+	background-color: rgb(0, 0, 0, 0);
+	color: #FFFFFF;
+	border-radius: 0.25rem;
+	
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 600;
+	
+	text-decoration: none;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_myWorks > a:hover{
+	background-color: #FFB742;
+	color: #212529;
+}
+
+.btn_myWorks > a:nth-child(1){
+	width: 6rem;
+}
+
+.btn_myWorks > a:nth-child(2){
+	width: 13.2rem;
+}
+
+.btn_myWorks > a:nth-child(3){
+	width: 16.7rem;
+}
+
+.btn_myWorks > a:nth-child(4){
+	width: 22rem;
+}
+
+
+.myWorks_portfolio{
+	margin: auto;
+	margin-top: 5rem;
+	
+	width: 98%;
+	height: 82rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+	flex-wrap: wrap;
+}
+
+.myWorks_portfolio > div{
+	flex-shrink: 0;
+}
+
+
+.myWorks_portfolio > div > img{
+	display: block;
+	border: none;
+}
+
+
+/*///////   Testimonials   ///////*/
+
+.testimonials{
+	margin: auto;
+	margin-top: 13rem;
+	width: 129.6rem;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.testimonials_title_correction{
+	font-weight: 700;
+	font-size: 3.9rem;
+}
+
+.testimonials_wCorrect{
+	width: 19.2rem;
+}
+
+.testimonials_cardsContainer{
+	width: 97%;
+	height: 47rem;
+	margin-top: 9.5rem;
+	
+	display: flex;
+	justify-content: space-around;
+}
+
+.cardFeedback{
+	width: 37.9rem;
+	height: 45.5rem;
+	background-color: #FFFFFF;
+	border-radius: 1rem;
+}
+
+.cardFeedback > ul{
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+}
+
+.star{
+	display: block;
+	flex-shrink: 0;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+	background-color: #FFB742;
+	width: 1.7rem;
+	height: 1.7rem;
+	margin: 0.2rem;
+	margin-top: 4rem;
+}
+
+.cardFeedback > div:nth-child(2){
+	width: 75%;
+	margin-left: 5rem;
+	margin-top: 1.5rem;
+	
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	color: black;
+	line-height: 2.8rem;
+}
+
+.cardFeedback > a{
+	display: inline-block;
+	width: 75%;
+	margin-left: 5rem;
+	margin-top: 4.8rem;
+	line-height: 3rem;
+	
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	color: black;
+	text-decoration: none;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.feedback_personalInfo{
+	display: inline-block;
+	font-family: Poppins;
+	font-size: 1.6rem;
+	font-weight: 400;
+	position: relative;
+	
+	width: 20rem;
+	height: 7rem;
+	
+	margin-left: 2rem;
+}
+
+.feedback_personalInfo > span{
+	display: inline-block;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+
+/*///////   FOOTER   ///////*/
+
+.footer{
+	width: 100%;
+	height: 47rem;
+	
+	background-color: #1C1C1C;
+	margin: 0 auto;
+	margin-top: 24rem;
+	
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.footer div{
+	width: 30rem;
+	flex-shrink: 0;
+	margin: 2.5rem;
+	margin-top: 14rem;
+	
+	font-family: 'Work Sans', sans-serif;
+}
+
+footer > div:nth-child(1){
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: #D4D4D4;
+}
+
+.footer > div:nth-child(1) > span{
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 3.2rem;
+	color: #FFB742;
+	
+	margin-bottom: 4rem;
+}
+
+.footer_links{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.footer_links > span{
+	display: block;
+	font-weight: bold;
+	font-size: 2.2rem;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+.footer_links > a{
+	font-weight: Medium;
+	font-size: 1.8rem;
+	text-decoration: none;
+	color: #7B7B7B;
+	
+	margin-top: 1.5rem;
+}

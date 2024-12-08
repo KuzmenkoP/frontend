@@ -1,0 +1,139 @@
+@media screen and ( min-width: 1620px ){
+
+/*100 / 1620 = 0.06
+404 x 677	
+
+677 * 0.06 = 40.62
+*/
+	:root{
+		--p03-c-cont-W: 1620px;
+	}
+	.wrapper{
+		width: var(--p03-c-cont-W);
+		max-width: none;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+		background-color: red;
+	}
+	
+/*
+width/height = 404/677	
+height = width * 677 / 404 = width * 1.6757
+*/
+
+/*	:root{
+MARGIN = % * 100 = 500
+		--p03-card-margin: calc( 500 * var(--p03-c-cont-W));
+		--p03-card-M: calc( var(--p03-card-margin) * 4);
+		
+		--p03-cards-width: calc( var(--p03-c-cont-W) - var(--p03-card-M));
+		--p03-card-W: calc( var(--p03-cards-width) / 4);
+		
+		--p03-card-H: calc( var(--p03-card-W) * 1.6757 );
+*/
+	}
+	
+	.p03_cards_container{
+		height: 57rem;
+/*		height: 60.9rem;*/
+	}
+	
+	.p03_card{
+		width: 22%;
+		max-width: 370px;
+
+		height: 100%;
+		
+		background-size: 100% 100% !important;
+	}
+	
+	.p03_cards_container > a:nth-child(1){ background-size: 104%; }
+	.p03_cards_container > a:nth-child(2){ background-size: 99%; }
+	.p03_cards_container > a:nth-child(3){ background-size: 101%; }
+	
+	.p03 > div:first-child{
+		margin: 5% auto;
+	}
+	
+
+
+	.p04{
+		padding-top: 8vw !important;
+	}
+
+	.p04_title{
+		font-size: 2.3vw;
+	}
+
+	.p04_title_2{
+		font-size: 1.9vw;
+	}
+
+	.p04_a{
+		font-size: 1.9vw;
+		margin-left: 5.5vw;
+	}
+	
+	.p04_msgContainer{
+		width: 46.8%;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.p04_msgContainer > iframe{
+		width: 31.3% !important;
+		height: 100%;
+/*		height: 57rem;*/
+	}
+	
+	.p04_form{
+		width: auto;
+	}
+	
+	.p04_container{
+		width: auto;
+		height: 400px;
+	}
+	
+	.p04_msgContainer > div:first-child{
+		font-size: 6.4rem !important;
+	}
+
+/*
+	936  x 400
+	0.11 x 0.25
+	
+	377   x 80   452   x 80   
+	41.47 x 20   49.72 x 20   
+	
+	872   x 209
+	95.92 x 52.25
+*/
+	.p04_form > input:first-child{
+		width: 36%;
+		height: 20%;
+		font-size: 3.6rem;
+	}
+	
+	.p04_form > input:nth-child(2){
+		width: 46%;
+		height: 20%;
+		font-size: 3.6rem;
+	}
+	
+	.p04_form > textarea{
+		width: 89.92%;
+		height: 52.25%;
+		font-size: 3.6rem;
+	}
+	
+	.p03_footer{
+		margin-top: 3% !important;
+/*		margin-top: 6%;*/
+		font-size: 1.9vw;
+	}
+}

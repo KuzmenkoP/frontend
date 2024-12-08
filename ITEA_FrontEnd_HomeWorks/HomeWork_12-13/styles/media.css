@@ -1,0 +1,31 @@
+/*
+///////   FONTS   ///////
+
+Rosario
+	SemiBold Italic		600
+	Bold Italic			700
+	Bold				700
+
+Volkhov
+	Regular				400
+
+font-family: 'Rosario', sans-serif;
+font-family: 'Volkhov', serif;
+
+width: 1920px;
+height: 1080px
+
+100/1920 = 0.05
+100/1080 = 0.09
+
+253 x 129
+1/129wwqa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,700;1,600;1,700&family=Volkhov&display=swap');
+
+@import url("./style.css");
+@import url("./media_1620_up.css");
+@import url("./media_1620.css");
+@import url("./media_992.css");
+@import url("./media_768.css");

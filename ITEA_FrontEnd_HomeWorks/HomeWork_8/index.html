@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Kuzmenko HW_8</title>
+		<link rel="stylesheet" href="./styles/style.css">
+	</head>
+	<body>
+		<div class="bg">
+			<div class="main_container">
+				<div class="link_member">
+					<a href="#">Allready a member?</a>
+				</div>
+				
+				<div class="title_left">
+					Input your information
+				</div>
+				
+				<div class="title_right">
+					We need you to help us with some basic information for your account creation. Here are our 
+					<a href="#">terms and conditins.</a> Please read them carefully. We are GDRP compliiant
+				</div>
+				
+				<div class="forms">
+					<form metod="post" action="./login.html">
+						<div class="form_container">
+							<label class="form_label" for="id_name" title="First name">First name</label><br>
+							<input class="form_input" type="text" placeholder="John" required id="id_name">
+						</div>
+						<div class="form_container">
+							<label class="form_label" for="id_last_name" title="Last name">Last name</label><br>
+							<input class="form_input" type="text" placeholder="Smit" required id="id_last_name">
+						</div>
+						
+						<div class="form_container">
+							<label class="form_label" for="id_company" title="Company">Company</label><br>
+							<input class="form_input" type="text" placeholder="John Smith" required id="id_company">
+						</div>
+						<div class="form_container">
+							<label class="form_label" for="id_email" title="Work email">Work email</label><br>
+							<input class="form_input" type="email" placeholder="John Smith" required id="id_email">
+						</div>
+						
+						<div class="form_container form_pos_correct">
+						<div class="label_optional">(optional)</div>
+							<label class="form_label" title="Number of employees" title="Number of employees" title="Number of employees">Number of employees</label><br>
+							<div class="numOfEmp_container">
+								<input id="ch_0" type="radio" name="numOfEmp" value="0<20" required>
+								<label for="ch_0">0&#60;20</label>
+								
+								<input id="ch_1" type="radio" name="numOfEmp" value="20<50" required>
+								<label for="ch_1">20&#60;50</label>
+								
+								<input id="ch_2" type="radio" name="numOfEmp" value="50<100" required>
+								<label for="ch_2">50&#60;100</label>
+								
+								<input id="ch_3" type="radio" name="numOfEmp" value="100<..." required>
+								<label for="ch_3">100&#60;...</label>
+							</div>
+						</div>
+						<div class="form_container form_pos_correct">
+							<div class="label_optional label_optional_correct">(optional)</div>
+							<label class="form_label" for="id_phone" title="Phone number">Phone number</label><br>
+							<input class="form_input" type="tel" placeholder="+380 00 000 000" required id="id_phone">
+						</div>
+						
+						<div class="horis_line"></div>
+						<div class="form_container">
+							<label class="form_label" for="id_passwd" title="Password">Password</label><br>
+							<input class="form_input" type="password" placeholder="" required id="id_passwd">
+						</div>
+						<div class="form_container">
+							<label class="form_label" for="id_confirm_passwd" title="Confirm password">Confirm password</label><br>
+							<input class="form_input" type="password" placeholder="" required id="id_confirm_passwd">
+						</div>
+						
+						<div class="horis_line"></div>
+						<input class="check_input" required type="checkbox" id="check_agree" name="check_test">
+						<label class="check_label" for="check_agree">I agree with <a href="#">terms and conditins.</a></label>
+
+						<input class="btn_ok" type="submit" value="Register"  name="check_test" href="http://google.com">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
