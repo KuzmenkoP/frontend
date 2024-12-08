@@ -1,0 +1,36 @@
+.bgDiv{
+    margin: auto;
+
+    border: 0.1vw solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divElements{
+    border: 0.1vw solid black;
+    background-color: #696969;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: black;
+    user-select: none;
+}
+
+.divElements:hover{
+    background-color: #8b8b8b;
+}
+
+.divElements:active{
+    background-color: #555;
+}
+
+.divElClk{
+    background-color: #c2c2c2;
+    color: #aaa;
+}
